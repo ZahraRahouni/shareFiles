@@ -1021,7 +1021,7 @@ class   UtilisateursEspaceClientController extends Controller
             return $this->redirect($this->generateUrl('connection'));
         }
     }
-    public function prospectsAction(Request $request){
+    public function firmesAction(Request $request){
         $session = $request->getSession();
         $ses = $session->get('utilisateur');
         $connectionFactory = $this->get('doctrine.dbal.connection_factory');
