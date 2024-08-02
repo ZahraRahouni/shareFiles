@@ -1,0 +1,4 @@
+//query 'mes clients'
+   SELECT *  FROM BD_EDICOM.bon_commande WHERE courtier ='30' AND societe='3' AND edition IN('35','34')
+//query 'mon fichier crm'
+   SELECT code_firme  FROM affectation  WHERE courtier='30' AND  societe='3'  
